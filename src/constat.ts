@@ -34,7 +34,7 @@ export const config = {
         ]
     }   ,
     banner: {
-        name:'Devraj',
+        name:'Devraj Rajput',
         description:'',
     },
     About: {

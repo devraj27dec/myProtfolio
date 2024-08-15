@@ -2,9 +2,6 @@ import React from "react";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
@@ -16,7 +13,7 @@ const Header = () => {
     <header className=" py-4 white shadow-md">
       <div className=" container flex justify-between items-center mx-auto px-4">
         <div>
-          <span className=" text-3xl font-semibold text-purple-300">Devraj Rajput</span>
+          <span className=" text-3xl font-semibold text-purple-300">devrajrajput.</span>
         </div>
         <div className="hidden md:flex space-x-8">
           {config.header.midNav.map((item , index) => (

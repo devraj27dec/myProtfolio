@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { config } from "@/constat";
 import Image from "next/image";
 import React from "react";
-import {ExternalLinkIcon} from '@radix-ui/react-icons'
+import { ExternalLinkIcon } from "@radix-ui/react-icons";
 
 const Projects = () => {
   return (
@@ -38,11 +38,19 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-              <div className="flex justify-center space-x-40">
-                <Button variant="default" className="bg-indigo-600 text-white">
+              <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-8">
+                <Button
+                  variant="default"
+                  className="bg-indigo-600 text-white w-full sm:w-auto"
+                >
                   Live Demo
                 </Button>
-                <Button variant="outline" className=" text-base text-black">Code <ExternalLinkIcon className=" text-lg"/></Button>
+                <Button
+                  variant="outline"
+                  className="text-base text-black w-full sm:w-auto"
+                >
+                  Code <ExternalLinkIcon className="ml-2 text-lg" />
+                </Button>
               </div>
             </div>
           </div>
