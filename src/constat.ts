@@ -35,7 +35,7 @@ export const config = {
     }   ,
     banner: {
         name:'Devraj',
-        description:'A Full Stack Devloper , I enjoy building websites & Exploring New Tech Stack',
+        description:'',
     },
     About: {
         description:''
