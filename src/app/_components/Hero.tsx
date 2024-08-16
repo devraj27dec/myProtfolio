@@ -19,8 +19,7 @@ const Hero = () => {
         <TypewriterEffectSmooth words={[{ text: config.banner.name }]} />
       </h1>
       <p className="text-base sm:text-lg md:text-xl text-slate-300 max-w-lg mx-auto md:mx-0">
-        A Full Stack Developer, I enjoy building websites & exploring new
-        tech stacks.
+        {config.banner.description}
       </p>
       <div className="mt-8 flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 justify-center md:justify-start">
         <button className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-gradient-to-br from-purple-500 via-indigo-500 to-indigo-600 rounded-lg shadow hover:from-purple-600 hover:via-indigo-600 hover:to-indigo-700 transition">

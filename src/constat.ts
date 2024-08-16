@@ -29,18 +29,11 @@ export const config = {
                 name:'About'
             }
         ],
-        rightNav: [
-            
-        ]
     }   ,
     banner: {
         name:'Devraj Rajput',
-        description:'',
+        description:'A Full Stack Developer, I enjoy building websites & exploring new Tech Stack.',
     },
-    About: {
-        description:''
-    },
-
     Projects: [
         {
             title: 'Choco',
