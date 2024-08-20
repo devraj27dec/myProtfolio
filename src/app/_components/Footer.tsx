@@ -3,9 +3,9 @@ import { LinkedInLogoIcon , InstagramLogoIcon , GitHubLogoIcon} from '@radix-ui/
 
 const Footer = () => {
   return (
-    <footer className=' flex flex-col items-center justify-center py-5 text-center'>
-      <span className='text-lg md:text-xl mb-4 md:mb-5'>Designed & Made 💜 By with Devraj Rajput</span>
-      <div className="flex gap-4 md:mt-4">
+    <footer className=' flex flex-col items-center justify-center py-2 text-center'>
+      <span className='text-lg md:text-xl mb-2 md:mb-3'>© Designed & built 💜 By Devraj Rajput . 2024</span>
+      <div className="flex gap-4 md:mt-2">
         <a href="https://www.linkedin.com/in/devraj-rajput" target="_blank" rel="noopener noreferrer">
           <LinkedInLogoIcon className="w-6 h-6 text-gray-300 hover:text-blue-700" />
         </a>

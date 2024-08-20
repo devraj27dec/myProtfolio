@@ -4,29 +4,38 @@ export const config = {
         leftNav: [
             {
                 name:'Home',
+                href: '#home'
             },
             {
-                name:'About'
+                name:'About',
+                href: '#about'
             },
             {
-                name:'Skills'
+                name:'Skills',
+                href:'#skills'
             },
             {
-                name:'Projects'
+                name:'Projects',
+                href:'#projects'
             },
             {
-                name:'Contact'
+                name:'Contact',
+                href:'#contact'
             },
         ],
         midNav: [
             {
-                name:'Project'
+                name:'Projects',
+                href:'#projects'
+
             },
             {
-                name:'Skills'
+                name:'Skills',
+                href:'#skills'
             },
             {
-                name:'About'
+                name:'About',
+                href:'#about'
             }
         ],
     }   ,

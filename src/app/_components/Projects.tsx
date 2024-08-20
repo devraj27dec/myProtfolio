@@ -6,7 +6,7 @@ import { ExternalLinkIcon } from "@radix-ui/react-icons";
 
 const Projects = () => {
   return (
-    <section className="flex flex-col items-center justify-center gap-4 sm:py-32 py-16 shadow-lg border-slate-200">
+    <section id="projects" className="flex flex-col items-center justify-center gap-4 sm:py-32 py-16 shadow-lg border-slate-200">
       <h2 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl text-slate-300">
         Projects
       </h2>
