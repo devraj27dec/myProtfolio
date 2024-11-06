@@ -6,7 +6,7 @@ import { config } from "@/constat";
 
 const Header = () => {
   return (
-    <header className="bg-indigo-950/80 backdrop-blur-sm sm:flex sm:sticky sm:top-0 py-4 md:py-2 px-4 top-2 z-50 rounded-full">
+    <div className="bg-indigo-950/85 mx-auto backdrop-blur-sm sm:flex sm:sticky sm:top-0 py-4 top-2 z-50 rounded-full">
       <div className="container flex justify-between items-center mx-auto px-4">
         <a href="#home">
           <span className="text-2xl md:text-3xl font-semibold text-purple-300">devrajrajput.</span>
@@ -54,7 +54,7 @@ const Header = () => {
           </Sheet>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

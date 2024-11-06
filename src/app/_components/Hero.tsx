@@ -11,7 +11,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="container flex flex-col md:flex-row items-center max-w-6xl mx-auto px-4 md:px-6 min-h-screen relative"
+        className="container mt-0 flex flex-col md:flex-row items-center max-w-5xl mx-auto px-4 md:px-6 min-h-screen relative"
       >
         <div className="flex flex-col justify-between items-center space-y-6 md:flex-1 md:items-start md:text-left">
           <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-200">
