@@ -53,12 +53,14 @@ export const config = {
             visit:'https://choco-self.vercel.app/'
         },
         {
-            title: 'Oyo Clone',
-            description: 'It is a Simple Oyo Clone where use Authentication & Book Oyo Rooms ',
-            image: '/assets/oyoClone-web.png',
+            title: 'Devraj Gallery',
+            description: 'It is a Personal Gallery Projects  ',
+            image: '/assets/gallery_app.png',
             tags:['NextJs , React , MongoDB , Tailwindcss'],
-            code:'https://github.com/devraj27dec/choco',
+            code:'https://github.com/devraj27dec/devraj_gallery',
             visit:'https://choco-self.vercel.app/'
-        }
+        },
+        
+        
     ]
 }

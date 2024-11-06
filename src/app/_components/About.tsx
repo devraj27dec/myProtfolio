@@ -1,6 +1,5 @@
 'use client'
 import { Reveal } from '@/components/reveal'
-import { motion } from 'framer-motion'
 import React from 'react'
 
 const About = () => {
@@ -11,7 +10,7 @@ const About = () => {
     >
       <section
         id="about"
-        className="flex flex-col items-center justify-center gap-4 sm:py-32 py-16 shadow-lg border-slate-200"
+        className="flex flex-col items-center justify-center gap-4 sm:py-36 py-20 "
       >
         <Reveal
           initial={{ scale: 0.8, opacity: 0 }}
