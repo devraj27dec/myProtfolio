@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimationProps, TargetAndTransition, VariantLabels, motion } from 'framer-motion';
+
 interface Props {
     children: React.ReactNode;
     initial: AnimationProps['initial'];

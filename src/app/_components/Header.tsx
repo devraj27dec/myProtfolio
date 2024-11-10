@@ -12,7 +12,7 @@ const Header = () => {
           <span className="text-2xl md:text-3xl font-semibold text-purple-300">devrajrajput.</span>
         </a>
         <div className="hidden md:flex space-x-6 lg:space-x-8">
-          {config.header.midNav.map((item, index) => (
+          {config.header.rightNav.map((item, index) => (
             <a
               key={index}
               href={item.href}
