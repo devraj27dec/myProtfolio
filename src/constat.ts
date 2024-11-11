@@ -1,4 +1,3 @@
-
 export type NavItem = {
     name: string;
     href: string;
@@ -116,3 +115,21 @@ export const PersonalProjects: ProjectObjectType = {
         visit:'https://choco-self.vercel.app/'
     }
 }
+
+export const socialMedia = [
+    {
+      id: 1,
+      img: "/git.svg",
+      url:"https://github.com/devraj27dec"
+    },
+    {
+      id: 2,
+      img: "/twit.svg",
+      url:"https://x.com/DevrajR94231077"
+    },
+    {
+      id: 3,
+      img: "/link.svg",
+      url:"https://www.linkedin.com/in/devraj-rajput/"
+    },
+];
