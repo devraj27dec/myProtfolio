@@ -26,7 +26,7 @@ const Hero = () => {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
             <a
-              href="/assets/Resume.pdf"
+              href="https://drive.google.com/file/d/1G2io5umGfTNL8-Mc-0Wh_zqudsRgK5Mt/view?usp=drive_link"
               download="Devraj_Rajput_Resume.pdf"
               className="inline-flex items-center justify-center px-4 sm:px-6 py-2 sm:py-3 text-base font-medium text-white bg-gradient-to-br from-purple-500 via-indigo-500 to-indigo-600 rounded-lg shadow hover:from-purple-600 hover:via-indigo-600 hover:to-indigo-700 transition"
             >
