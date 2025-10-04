@@ -1,7 +1,7 @@
 import { config } from "@/constat";
 import Image from "next/image";
 import React from "react";
-import profile from "../../../public/assets/profile.jpg";
+import profile from "../../../public/assets/devraj.png";
 import { ArrowRightIcon, ExternalLinkIcon } from "@radix-ui/react-icons";
 import { TypewriterEffectSmooth } from "@/components/Typing-effect";
 import Scorlldown from "@/components/Scorlldown";

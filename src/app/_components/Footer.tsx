@@ -2,10 +2,15 @@ import { socialMedia } from '@/constat';
 import React from 'react';
 
 const Footer = () => {
+
+
+  // To get current year:
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="flex flex-col md:flex-row items-center justify-between py-6 text-center space-y-4 md:space-y-0">
       <div className="text-center">
-        <span className="text-lg md:text-xl">© Designed & Built 💜 by Devraj Rajput. 2024</span>
+        <span className="text-lg md:text-sm">© Designed & Built 💜 by Devraj Rajput. {currentYear}</span>
       </div>
       <div className="flex items-center gap-4">
         {socialMedia.map((icon) => (
