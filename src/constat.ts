@@ -116,6 +116,36 @@ export const PersonalProjects: ProjectObjectType = {
     }
 }
 
+
+interface MyExpericeData {
+    id: number;
+    company:string;
+    role:string;
+    type:string;
+    start_date:string;
+    end_date:string;
+}
+
+export const myexperince: MyExpericeData[] = [
+    {
+        id:1,
+        company:"Gravit Infosytems pvt. ltd." ,
+        type:"Intern",
+        role:"Web Developer",
+        start_date:"Jan 2025",
+        end_date:"Apr 2025",
+    },
+    {
+        id:2,
+        company:"Gravit Infosytems pvt. ltd." ,
+        type:"Full Time",
+        role:"Junior FullStack Developer",
+        start_date:"May 2025",
+        end_date:"Sep 2025",
+    }
+]
+
+
 export const socialMedia = [
     {
       id: 1,
